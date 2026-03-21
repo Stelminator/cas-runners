@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     netcat-openbsd \
     wget \
     && pip install --no-cache-dir \
+    httpx \
     hvac \
     requests \
     && rm -rf /var/lib/apt/lists/*
