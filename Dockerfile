@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     dnsutils \
     iputils-ping \
     jq \
+    libjpeg-turbo-progs \
     netcat-openbsd \
     wget \
     && pip install --no-cache-dir \
